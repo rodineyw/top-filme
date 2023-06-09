@@ -83,10 +83,10 @@ li {
 }
 
 .logo {
-  display: flex;
   width: 100px;
 
   margin: auto;
+  margin-top: 5px;
   padding: 0;
 }
 
