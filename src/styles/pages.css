@@ -109,6 +109,7 @@ li {
 .bg img {
   padding: 1rem;
   width: 90%;
+
   border-radius: 2rem;
   column-count: 1;
 }
@@ -116,6 +117,8 @@ li {
 .texto {
   padding: 1rem;
   width: 100%;
+  gap: 1rem;
+
   margin-top: 4rem;
 }
 

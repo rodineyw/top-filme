@@ -148,3 +148,20 @@ li {
 .bg:hover {
   box-shadow: 1px 1px 20px var(--color-secundary);
 }
+
+footer {
+  bottom: 0;
+  background-color: var(--color-bg-200);
+
+  height: 40px;
+  width: 100%;
+
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  position: fixed;
+}
+
+footer img {
+  width: 50px;
+}
