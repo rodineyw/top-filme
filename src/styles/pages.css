@@ -92,8 +92,8 @@ li {
 
 .card {
   column-count: 2;
-  grid-template-columns: 1fr 2fr;
   gap: 2rem;
+  justify-content: space-around;
 
   margin: 1rem;
   margin-top: 6rem;
@@ -106,13 +106,16 @@ li {
   border-radius: 1rem;
 }
 
-img {
-  width: 80%;
+.bg img {
   padding: 2rem;
+  width: 90%;
+  border-radius: 3rem;
+  column-count: 1;
 }
 
 .texto {
   width: 100%;
+  margin-top: 4rem;
 }
 
 .stream {
