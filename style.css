@@ -101,14 +101,13 @@ li {
   justify-content: center;
 
   border-radius: 2rem;
-  background-color: var(--color-bg-200);
-}
-
-.movie:hover {
-  box-shadow: 1px 1px 10px var(--color-secundary);
 }
 
 img {
   width: 30rem;
   border-radius: 1rem;
+}
+
+img:hover {
+  box-shadow: 1px 1px 20px var(--color-secundary);
 }
