@@ -72,7 +72,7 @@ li {
 }
 
 .navbar {
-  position: absolute;
+  position: fixed;
   width: 100%;
 
   background-color: var(--color-bg-200);
@@ -82,13 +82,17 @@ li {
   text-align: center;
 }
 
-.navbar img {
-  width: 80px;
-  margin-top: 8px;
+.logo {
+  display: flex;
+  width: 100px;
+
+  margin: auto;
+  padding: 0;
 }
 
 .card {
   column-count: 2;
+  grid-template-columns: 1fr 2fr;
   gap: 2rem;
 
   margin: 1rem;
@@ -99,11 +103,12 @@ li {
   text-align: start;
 
   background-image: linear-gradient(to right, #3F3351, transparent);
-  background: ;
+  border-radius: 1rem;
 }
 
 img {
-  width: 100%;
+  width: 80%;
+  padding: 2rem;
 }
 
 .texto {
