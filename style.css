@@ -93,7 +93,6 @@ li {
 .top {
   position: absolute;
   margin-top: 9rem;
-  margin-left: 4rem;
 }
 
 .listafilmes {
@@ -104,6 +103,7 @@ li {
   justify-content: center;
   flex-wrap: wrap;
   margin-top: 18rem;
+  margin-bottom: 5rem;
 }
 
 .bg {
@@ -147,6 +147,24 @@ li {
 
 .bg:hover {
   box-shadow: 1px 1px 20px var(--color-secundary);
+}
+
+.top-serie {
+  position: flex;
+  text-align: center;
+
+  padding: 5rem;
+
+  width: 100%;
+  margin: 0 auto;
+}
+
+.serie {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem;
+
+  border-radius: 2rem;
 }
 
 footer {
