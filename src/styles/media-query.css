@@ -15,6 +15,64 @@
 
 @media screen and (min-width: 769px) and (max-width: 920px) {
   /* CONFIGURAÇÃO PARA TABLET*/
+  :root {
+    font-size: 1.5rem;
+  }
+
+  .voltar {
+    display: flex;
+    position: absolute;
+
+    background: transparent;
+    border: none;
+  }
+
+  .voltar i {
+    position: fixed;
+    top: .5rem;
+    font-size: 3rem;
+    color: var(--color-primary);
+    align-items: center;
+  }
+
+  .navbar {
+    position: fixed;
+    width: 100%;
+
+    background-image: linear-gradient(to bottom, #1F1D36, 80%, transparent);
+    height: 100px;
+
+    align-items: center;
+    text-align: center;
+  }
+
+  .navbar img {
+    width: 200px;
+  }
+
+  body {
+    column-count: 2;
+  }
+
+  .bg img {
+    width: 30rem;
+  }
+
+  .texto {
+    margin-top: 1rem;
+  }
+
+  footer {
+    background-image: linear-gradient(to top, #1F1D36, 80%, transparent);
+
+    height: 200px;
+  }
+
+  footer img {
+    width: 120px;
+  }
+}
+
 }
 
 @media screen and (min-width: 992px) {
@@ -43,7 +101,7 @@
     position: fixed;
     width: 100%;
 
-    background-color: var(--color-bg-200);
+    background-image: linear-gradient(to bottom, #1F1D36, 80%, transparent);
     height: 100px;
 
     align-items: center;
@@ -67,7 +125,9 @@
   }
 
   footer {
-    height: 100px;
+    background-image: linear-gradient(to top, #1F1D36, 80%, transparent);
+
+    height: 200px;
   }
 
   footer img {
