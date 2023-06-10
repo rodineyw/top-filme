@@ -184,7 +184,7 @@ li {
   left: 0;
   right: 0;
   margin: 0 auto;
-  background-color: var(--color-bg-200);
+  background-image: linear-gradient(to top, #1F1D36, 80%, transparent);
 
   height: 40px;
   float: ;
