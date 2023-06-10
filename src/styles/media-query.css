@@ -1,0 +1,25 @@
+@media screen and (max-width: 768px) {
+  /* CONFIGURAÇÃO PARA SMARTPHONE*/
+  :root {
+  }
+
+  body {
+
+  }
+
+  .stream {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 920px) {
+  /* CONFIGURAÇÃO PARA TABLET*/
+  
+}
+
+@media screen and (min-width: 992px) {
+  /* CONFIGURAÇÕES PARA DESKTOP */
+
+}
