@@ -7,7 +7,7 @@ Neste projeto, reuni os meus filmes e séries favoritos, escolhidos a dedo para 
 ### 🎥 Top Filmes 🎥
 
 **1. "Pegando Fogo" (Burn)**
-- 📷 [Clique na imagem](/src/img/burn.jpg)
+- 📷 ![Clique na imagem](/src/img/burn.jpg)
 - Uma história de culinária que vai te fazer salivar! 🍔🔥
 
 **2. "Chef"**
