@@ -39,7 +39,6 @@ E lembre-se, este projeto foi desenvolvido com paixão por filmes e séries. Apr
 Desenvolvido por
 <div style="width=">
   
-![Logo artec0der](/src/img/icon.png)
 &copy; 2023
 
 </div>
